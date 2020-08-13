@@ -1,5 +1,5 @@
 ## fcc-frontend-libraries-projects
-React JS based solutions for FreeCodeCamp(FCC) frpon end libraries projects as listed [here](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/)
+React JS based solutions for FreeCodeCamp(FCC) front-end libraries projects as listed [here](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/)
 
 **Note:** The solutions here are for reference only, it is still a work-in-progress so some of them might not be fully functional. Please suggest/raise issues as it might help me in understanding react better.
 
