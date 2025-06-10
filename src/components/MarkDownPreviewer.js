@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import marked from 'marked';
+import DOMPurify from 'dompurify';
 
 marked.setOptions({
   renderer: new marked.Renderer(),
@@ -68,9 +69,10 @@ const Editor = (props)=> {
 }
 
 const Preview = (props)=> {		
+	const sanitizedHTML = DOMPurify.sanitize(marked(props.value));
 	return (
 		<div id='preview' dangerouslySetInnerHTML={{
-			__html: marked(props.value)
+			__html: sanitizedHTML
 			}}
 		/>	
 	)
